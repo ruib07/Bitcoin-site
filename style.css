@@ -157,9 +157,9 @@ nav .btn {
 }
 
 .contact-content {
-    text-align: center;
+    text-align: left;
     color: #fff;
-    margin-top: 150px;
+    margin-top: 64px;
     font-size: 22px;
     margin-left: 75px;
     line-height: 40px;
@@ -167,6 +167,58 @@ nav .btn {
 
 .contact-content span {
     color: #ff960b;
+}
+
+.form-title {
+    text-align: center;
+    color: #fff;
+    margin-top: -190px;
+    height: 40px;
+}
+
+.form1-content {
+    text-align: center;
+    color: #fff;
+    height: 30px;
+}
+
+.form1-text {
+    text-align: center;
+}
+
+.form2-content {
+    text-align: center;
+    color: #fff;
+    height: 30px;
+}
+
+.form2-text {
+    text-align: center;
+}
+
+.form3-content {
+    text-align: center;
+    color: #fff;
+    height: 30px;
+}
+
+.form3-text {
+    text-align: center;
+}
+
+.form4-content {
+    text-align: center;
+    color: #fff;
+    height: 30px;
+}
+
+.form4-text {
+    text-align: center;
+}
+
+.botao-form {
+    text-align: center;
+    height: 55px;
 }
 
 .coins-title {

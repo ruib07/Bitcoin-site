@@ -176,49 +176,6 @@ nav .btn {
     height: 40px;
 }
 
-.form1-content {
-    text-align: center;
-    color: #fff;
-    height: 30px;
-}
-
-.form1-text {
-    text-align: center;
-}
-
-.form2-content {
-    text-align: center;
-    color: #fff;
-    height: 30px;
-    margin-top: 20px;
-}
-
-.form2-text {
-    text-align: center;
-}
-
-.form3-content {
-    text-align: center;
-    color: #fff;
-    height: 30px;
-    margin-top: 20px;
-}
-
-.form3-text {
-    text-align: center;
-}
-
-.form4-content {
-    text-align: center;
-    color: #fff;
-    height: 30px;
-    margin-top: 20px;
-}
-
-.form4-text {
-    text-align: center;
-}
-
 .botao-form {
     text-align: center;
     height: 55px;
@@ -437,7 +394,7 @@ card h1 {
     z-index: 0;
     border-radius: 10px;
     margin-left: 840px;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 
 .glow-on-hover:before {
@@ -493,4 +450,45 @@ card h1 {
     100% {
         background-position: 0 0;
     }
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-size: 62, 5%;
+}
+
+.form__label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    margin-top: 0.7rem;
+    display: block;
+    transition: all 0.3s;
+    transform: translateY(0rem);
+}
+
+.form__input {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 10%;
+    display: block;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.3s;
+}
+
+.form__input:placeholder-shown+.form__label {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(-4rem);
+    transform: translateY(-4rem);
 }

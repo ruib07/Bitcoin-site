@@ -394,7 +394,7 @@ card h1 {
     z-index: 0;
     border-radius: 10px;
     margin-left: 840px;
-    margin-top: 10px;
+    margin-top: 25px;
 }
 
 .glow-on-hover:before {
@@ -481,6 +481,7 @@ card h1 {
     background-color: rgb(255, 255, 255);
     border: none;
     width: 10%;
+    height: 10px;
     display: block;
     border-bottom: 0.3rem solid transparent;
     transition: all 0.3s;
@@ -491,4 +492,16 @@ card h1 {
     visibility: hidden;
     -webkit-transform: translateY(-4rem);
     transform: translateY(-4rem);
+}
+
+.thanks-title {
+    text-align: center;
+    color: #fff;
+    margin-top: -700px;
+}
+
+.thankspt-title {
+    text-align: center;
+    color: #fff;
+    margin-top: -700px;
 }
